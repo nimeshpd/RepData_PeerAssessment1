@@ -111,6 +111,6 @@ averagedActivityDataImputed <- aggregate(steps ~ interval + dateType, data=activ
 ggplot(averagedActivityDataImputed, aes(interval, steps)) + 
     geom_line() + 
     facet_grid(dateType ~ .) +
-    xlab("5-minute interval") + 
-    ylab("average number of steps")
+    xlab("5-minute Interval") + 
+    ylab("Average Number of Steps")
 ```
